@@ -1,0 +1,160 @@
+* {
+        box-sizing: border-box;
+}
+
+.body{
+    display: block;
+    margin: 8px;
+}
+
+
+.news-title{
+    margin: 10px;
+    text-align: center;
+    font-size: 100px;
+    font-family:Brush Script MT;
+    display: block;
+
+}
+
+.first-row{
+    border-bottom: 4px solid black;
+    border-top: 4px solid black;
+    border-left: 3px solid #D3D3D3;
+    border-right: 3px solid #D3D3D3;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: stretch;
+}
+
+.student-learns-html-section
+{
+    padding: 10px;
+    justify-content: flex-start;
+    width: 25%;
+    flex:1;
+}
+
+.puppies-section{
+    padding: 10px;
+    border-left: 3px solid #D3D3D3;
+    border-right: 3px solid #D3D3D3;
+    width: 50%;
+
+}
+
+.css-section{
+    width: 25%;
+    padding: 10px;
+    justify-content: flex-end;
+
+}
+
+.boys-like-turtles{
+    padding: 10px;
+    justify-content: flex-start;
+    width: 25%;
+
+}
+
+.div-genres{
+        align-items: stretch;
+        border-left: 3px solid #D3D3D3;
+        border-right: 3px solid #D3D3D3;
+        width: 75%;
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;;
+}
+
+.post-title
+{
+    font-size: 60px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.post-paragraph{
+
+    text-align: left;
+    font-size: 20px;
+    font-weight: normal;
+
+}
+
+.li-genres{
+    font-size: 70px;
+    font-weight: bold;
+    text-align: left;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+
+
+
+}
+
+.pol{
+        background-color: khaki;
+}
+
+.tech{
+ background-color: aqua;
+}
+
+.loc{
+    background-color: lightgreen;
+}
+
+.opin{
+        background-color: cornflowerblue;
+}
+
+.sports{
+    background-color: blueviolet;
+}
+
+.corgi-image{
+
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 100%;
+
+}
+
+.uppercase-span{
+    text-transform: uppercase;
+
+}
+
+.second-row{
+    display: flex;
+    flex-direction: row;
+    border-bottom: 4px solid black;
+    border-left: 3px solid #D3D3D3;
+    border-right: 3px solid #D3D3D3;
+}
+
+.section-link{
+    color: black;
+    text-decoration: none;
+    font-size: 50px;
+    padding-left: 30px;
+}
+
+a{
+    cursor: pointer;
+}
+
+.section-link:hover{
+    text-decoration: underline;
+    color: aquamarine;
+}
